@@ -91,6 +91,13 @@ p, header, body, div{
   font-style:bold;
 }
 
+intro-text-box {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex: 1;
+    text-align: center;
+}
 .intro-title {
   margin-top: 25px;
   font-weight: 900;
@@ -104,7 +111,7 @@ p, header, body, div{
 .conteudo {
   display: flex;
   flex-direction: row;
-
+  
 }
 
 .interesse {
@@ -114,18 +121,35 @@ p, header, body, div{
 .caixa {
   flex-direction: column;
   justify-content:space-between;
-margin-left: 10rem;
+  
+  margin-left: 10rem;
   margin-right: 10rem;
+  width: 30rem;
+
+  color: white;
+
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .caixa-titulo {
+  border-radius: 7px;
   background-color: #47685A;
+  border-style: solid;
+  border-color: #354941;
+  border-width: 3px;
+
   margin-bottom: 5px;
   border-radius: 7px;
   padding-left: 10px;
   padding-right: 10px;
 }
 .caixa-corpo {
-  background-color: #47685A;
   border-radius: 7px;
+  background-color: #47685A;
+  border-style: solid;
+  border-color: #354941;
+  border-width: 3px;
 }
+
