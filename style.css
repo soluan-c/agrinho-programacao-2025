@@ -111,7 +111,7 @@ intro-text-box {
 .conteudo {
   display: flex;
   flex-direction: row;
-  
+  padding-left: padding-right: 10px;
 }
 
 .interesse {
