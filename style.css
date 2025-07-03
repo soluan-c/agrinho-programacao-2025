@@ -153,3 +153,6 @@ p, header, body, div{
   width: 7rem;
 }
 
+a {
+  color: white;
+}
